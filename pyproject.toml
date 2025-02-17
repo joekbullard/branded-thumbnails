@@ -1,0 +1,29 @@
+[project]
+name = "awt_logo_generator"
+version = "0.1"
+[project]
+dependencies = [
+  "Pillow"
+]
+authors = [
+  { name="Joe Bullard", email="joe.bullard@avonwildlifetrust.org.uk" },
+]
+description = "Add AWT logos on images for thumbnails"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = { file = "LICENSE" }
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.urls]
+Homepage = "https://github.com/pypa/sampleproject"
+Issues = "https://github.com/pypa/sampleproject/issues"
+
+[project.scripts]
+generate = "awt_logo_generator.cli:main"
