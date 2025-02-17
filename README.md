@@ -2,8 +2,8 @@
 
 This is a simple tool to generate images with the AWT logo in a given corner.
 
-![Example image with AWT logo](./media/grass_snake_awt_logo.png)
+## Example image
+![grass_snake_awt_logo_logo](https://github.com/user-attachments/assets/9e0796da-cd92-4bcb-9338-6e031de9e63e)
 
 ## Usage
-
-`thumbnail_generator "input_directory" "output_directory" -c top_right`
+`generator "input_directory" "output_directory" -c bottom_left -m 20`
